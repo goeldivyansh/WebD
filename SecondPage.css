@@ -1,0 +1,80 @@
+/*h1 {
+	color: blue;
+}
+
+p {
+	background: lightgrey;
+	color: green;
+	border: 2px solid green;
+}
+
+ul {
+	background: pink;
+	color: grey;
+}
+
+li {
+	border: 0.5px dashed green;
+}
+
+#name {
+	color: black;
+	background: blue;
+}
+
+#name2 {
+	color: white;
+	background: black;
+	text-decoration: blink red;
+}
+
+.abc {
+	color: darkblue;
+	background: yellow; 
+}
+
+a {
+	color : pink;
+
+	border: 0.5px dashed orange;
+}
+
+div{
+	border: 5px solid red;
+	background: darkgrey;
+}
+
+body {
+	background: url(https://previews.123rf.com/images/merkulovnik/merkulovnik1506/merkulovnik150600335/40642831-abstract-paint-splash-isolated-on-white-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
+
+
+/*Star*/
+* {
+	border: 1px solid lightgrey;
+}
+
+/*descendant selector*/
+
+li a {
+	color: red;
+}
+/*
+adjacent selector*/
+
+div + ul {
+	border: 4px solid grey;
+}
+
+/*attribute selector*/
+
+a[href="https://www.google.com/"] {
+	background: orange;
+}
+
+li:nth-of-type(even){
+	background: lightgrey;
+}
